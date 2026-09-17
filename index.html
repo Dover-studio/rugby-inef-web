@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Web redissenyada del Rugby INEF Barcelona: club, equips, propers partits, notícies i patrocinadors." />
+  <title>Rugby - INEF Barcelona</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- SOCIAL FIX -->
+    <nav class="rib-social-fixed" aria-label="Xarxes socials del Rugby INEF Barcelona">
+      <a class="rib-social-fixed__link" href="https://www.instagram.com/rugbyinefbcn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram del Rugby INEF Barcelona">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+          <circle cx="12" cy="12" r="3.6"></circle>
+          <circle cx="17" cy="7" r="1"></circle>
+        </svg>
+      </a>
+      <a class="rib-social-fixed__link" href="https://x.com/rugbyinefbcn?lang=es" target="_blank" rel="noopener noreferrer" aria-label="X del Rugby INEF Barcelona">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M5 5L19 19M19 5L5 19"></path>
+        </svg>
+      </a>
+      <a class="rib-social-fixed__link" href="https://www.facebook.com/RugbyINEF/" target="_blank" rel="noopener noreferrer" aria-label="Facebook del Rugby INEF Barcelona">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M14.5 8.2H16V5.5h-2.1c-2.5 0-3.9 1.5-3.9 4v1.7H8v2.9h2v5.4h3.1v-5.4h2.4l.4-2.9h-2.8V9.7c0-1 .4-1.5 1.4-1.5Z"></path>
+        </svg>
+      </a>
+    </nav>
+
+  <header class="rib-header" id="top">
+    <a class="rib-logo" href="index.html" aria-label="Rugby INEF Barcelona - Inici">
+      <img src="patrocinadors_i_logos/INEF_original_sense fons.png" alt="Logo Rugby INEF Barcelona" />
+      <span>Rugby INEF Barcelona</span>
+    </a>
+
+    <button class="rib-menu-toggle" type="button" aria-label="Obrir menú" aria-expanded="false" data-menu-toggle>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="rib-nav" aria-label="Navegació principal" data-main-nav>
+      <a href="index.html#club">Club</a>
+      <a href="#propers-partits">Calendari</a>
+      <a href="#noticies">Actualitat</a>
+      <a href="#patrocinadors">Patrocinadors</a>
+      <a href="botiga.html">Botiga</a>
+      <a class="rib-nav__cta" href="juga-amb-nosaltres.html">Juga amb nosaltres</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO PRINCIPAL -->
+    <section class="rib-hero" id="inici" aria-labelledby="rib-hero-title">
+      <div class="rib-hero__bg" aria-hidden="true"></div>
+      <div class="rib-container rib-hero__grid">
+        <div class="rib-hero__content">
+          <p class="rib-eyebrow rib-eyebrow--light">Rugby INEF Barcelona</p>
+          <h1 id="rib-hero-title">Rugby amb identitat, equip i cor verd</h1>
+          <p>
+            Som un club històric de Barcelona que viu el rugby des de la competició,
+            la formació i la comunitat. Vine a jugar, animar o formar part del club.
+          </p>
+          <div class="rib-hero__actions">
+            <a class="rib-btn rib-btn--primary" href="juga-amb-nosaltres.html">Juga amb nosaltres</a>
+            <a class="rib-btn rib-btn--ghost" href="#propers-partits">Veure propers partits</a>
+          </div>
+        </div>
+
+        <aside class="rib-hero-card" aria-label="Destacats del club">
+          <img class="rib-gallery-photo--rug-3" src="imatges/Rug_10.jpg" alt="Equip femení del Rugby INEF Barcelona fent pinya" />
+          <div>
+            <span class="rib-badge">Club verd</span>
+            <h2>Competir, formar i fer comunitat</h2>
+            <p>Una web més directa per a jugadors/es, famílies, socis i afició.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- FRANJA DE PATROCINADORS COM A SEPARADOR -->
+    <section class="rib-sponsor-strip" aria-label="Patrocinadors principals">
+      <div class="rib-container rib-sponsor-strip__grid">
+        <span>Amb el suport de</span>
+        <img src="patrocinadors_i_logos/Comarca-Photoroom.png" alt="Comarca" />
+        <img src="patrocinadors_i_logos/Logo_fisioeixample_web_Mesa de trabajo 1 copia 7.png" alt="Fisioeixample" />
+        <img src="patrocinadors_i_logos/Logo Belushi's blanc.png" alt="Belushi's" />
+      </div>
+    </section>
+
+    <!-- CLUB -->
+    <section class="rib-section rib-club" id="club" aria-labelledby="rib-club-title">
+      <div class="rib-container rib-split">
+        <div class="rib-split__content">
+          <p class="rib-eyebrow">El club</p>
+          <h2 id="rib-club-title">Una història verda dins del rugby barceloní</h2>
+          <p>
+            Rugby INEF Barcelona és equip, esforç i pertinença. Aquesta nova estructura dona més protagonisme
+            a les fotografies del club, diferencia millor les seccions i facilita trobar partits, notícies i informació útil.
+          </p>
+          <div class="rib-stats" aria-label="Dades destacades">
+            <article><strong>1976</strong><span>Arrels històriques a Barcelona</span></article>
+            <article><strong>Montjuïc</strong><span>Casa esportiva vinculada a l’INEFC</span></article>
+            <article><strong>Verd</strong><span>Identitat, comunitat i rugby</span></article>
+          </div>
+          <div class="rib-section-actions">
+            <a class="rib-btn rib-btn--primary" href="club.html">Llegir història del club</a>
+          </div>
+        </div>
+        <div class="rib-photo-stack" aria-hidden="true">
+          <img class="rib-gallery-photo--rug-ant-3" src="imatges/Rug_Ant_2.jpg" alt="" />
+          <img class="rib-gallery-photo--rug-11" src="imatges/Rug_Ant_3.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- CALENDARI -->
+    <section class="rib-section rib-calendar-section" id="propers-partits" aria-labelledby="rib-calendar-title">
+      <div class="rib-container">
+        <div class="rib-section-head">
+          <p class="rib-eyebrow">Calendari</p>
+          <h2 id="rib-calendar-title">Calendari del club</h2>
+          <p>Consulta els partits del Rugby INEF Barcelona. Mou-te pels mesos i selecciona un dia per veure els esdeveniments.</p>
+          <div class="rib-calendar-legend" aria-label="Llegenda del calendari">
+            <span><i class="rib-calendar-dot rib-calendar-dot--masculi"></i> Masculí</span>
+            <span><i class="rib-calendar-dot rib-calendar-dot--femeni"></i> Femení</span>
+          </div>
+        </div>
+
+        <div class="rib-calendar-layout">
+          <div class="rib-calendar-card">
+            <div class="rib-calendar-header">
+              <button class="rib-calendar-nav" type="button" aria-label="Mes anterior" data-calendar-prev>‹</button>
+              <div>
+                <p class="rib-calendar-kicker">Mes actual</p>
+                <h3 data-calendar-title>Gener 2026</h3>
+              </div>
+              <button class="rib-calendar-nav" type="button" aria-label="Mes següent" data-calendar-next>›</button>
+            </div>
+
+            <div class="rib-calendar-weekdays" aria-hidden="true">
+              <span>Dl</span>
+              <span>Dt</span>
+              <span>Dc</span>
+              <span>Dj</span>
+              <span>Dv</span>
+              <span>Ds</span>
+              <span>Dg</span>
+            </div>
+
+            <div class="rib-calendar-grid" data-calendar-grid aria-label="Calendari mensual"></div>
+          </div>
+
+          <aside class="rib-calendar-events" aria-labelledby="rib-calendar-events-title">
+            <div class="rib-calendar-events__head">
+              <p class="rib-eyebrow">Esdeveniments</p>
+              <h3 id="rib-calendar-events-title" data-selected-day-title>Selecciona un dia</h3>
+              <p data-selected-day-subtitle>Tria una data del calendari per veure què hi passa.</p>
+            </div>
+
+            <div class="rib-calendar-events__list" data-events-list>
+              <article class="rib-calendar-empty">
+                <strong>Cap dia seleccionat</strong>
+                <span>Quan cliquis un dia, aquí apareixeran els partits o activitats programades.</span>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <p class="rib-empty-state" hidden>Encara no hi ha partits programats. Torna aviat per consultar el calendari.</p>
+        </div>
+
+        <!-- EDITA AQUÍ ELS PARTITS MASCULINS -->
+        <div class="rib-match-panel" id="partits-masculi" role="tabpanel" data-match-panel="masculi" hidden>
+          <div class="rib-match-grid">
+            <article class="rib-match-card rib-match-card--home">
+              <div class="rib-match-card__top">
+                <span class="rib-badge">Local</span>
+                <span>Lliga catalana · Masculí</span>
+              </div>
+
+              <div class="rib-matchup" aria-label="CR INEF BCN contra CR SPARTANS">
+                <div class="rib-match-team">
+                  <img class="rib-match-crest rib-match-crest--inef" src="escuts_equips/inef_bcn.png" alt="Escut CR INEF BCN" />
+                  <strong>CR INEF BCN</strong>
+                </div>
+
+                <span class="rib-matchup__vs">VS</span>
+
+                <div class="rib-match-team">
+                  <img class="rib-match-crest rib-match-crest--spartans" src="escuts_equips/cr_spartans.png" alt="Escut CR SPARTANS" />
+                  <strong>CR SPARTANS</strong>
+                </div>
+              </div>
+
+              <dl class="rib-match-info">
+                <div><dt>Data</dt><dd>Dissabte, 00/00/2026</dd></div>
+                <div><dt>Hora</dt><dd>10:00 h</dd></div>
+                <div><dt>Camp</dt><dd>FOIXARDA</dd></div>
+              </dl>
+              <a class="rib-card-link" href="juga-amb-nosaltres.html">Veure detalls</a>
+            </article>
+
+            <article class="rib-match-card rib-match-card--away">
+              <div class="rib-match-card__top">
+                <span class="rib-badge rib-badge--dark">Visitant</span>
+                <span>Competició pendent</span>
+              </div>
+
+              <div class="rib-matchup" aria-label="RC CORNELLÀ contra CR INEF BCN">
+                <div class="rib-match-team">
+                  <img class="rib-match-crest rib-match-crest--cornella" src="escuts_equips/rc_cornella.png" alt="Escut RC CORNELLÀ" />
+                  <strong>RC CORNELLÀ</strong>
+                </div>
+
+                <span class="rib-matchup__vs">VS</span>
+
+                <div class="rib-match-team">
+                  <img class="rib-match-crest rib-match-crest--inef" src="escuts_equips/inef_bcn.png" alt="Escut CR INEF BCN" />
+                  <strong>CR INEF BCN</strong>
+                </div>
+              </div>
+
+              <dl class="rib-match-info">
+                <div><dt>Data</dt><dd>Diumenge, 00/00/2026</dd></div>
+                <div><dt>Hora</dt><dd>16:45 h</dd></div>
+                <div><dt>Camp</dt><dd>PILAR PONS</dd></div>
+              </dl>
+              <a class="rib-card-link" href="juga-amb-nosaltres.html">Veure detalls</a>
+            </article>
+          </div>
+
+          <section class="rib-standings" aria-labelledby="rib-standings-masculina">
+            <div class="rib-standings__head">
+              <div>
+                <p class="rib-eyebrow">Classificació</p>
+                <h3 id="rib-standings-masculina">Classificació masculina</h3>
+              </div>
+              <span class="rib-standings__note">Taula detallada</span>
+            </div>
+
+            <div class="rib-standings__table-wrap">
+              <table class="rib-standings-table rib-standings-table--detailed">
+                <thead>
+                  <tr>
+                    <th scope="col">Núm.</th>
+                    <th scope="col">Escut</th>
+                    <th scope="col">Equip</th>
+                    <th scope="col">J</th>
+                    <th scope="col">G</th>
+                    <th scope="col">E</th>
+                    <th scope="col">P</th>
+                    <th scope="col">PF</th>
+                    <th scope="col">PC</th>
+                    <th scope="col">DP</th>
+                    <th scope="col">AF</th>
+                    <th scope="col">AC</th>
+                    <th scope="col">BO</th>
+                    <th scope="col">BD</th>
+                    <th scope="col">Punts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td class="rib-standing-rank">1</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--sant-cugat-xv" src="escuts_equips/cr_sant_cugat_xv.png" alt="Escut CR SANT CUGAT XV" />
+                  </td>
+                  <td class="rib-standing-name">CR SANT CUGAT XV</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>460</td>
+                  <td>248</td>
+                  <td>212</td>
+                  <td>76</td>
+                  <td>36</td>
+                  <td>8</td>
+                  <td>5</td>
+                  <td class="rib-standing-points"><strong>49</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">2</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--geieg" src="escuts_equips/geieg.png" alt="Escut GEIEG" />
+                  </td>
+                  <td class="rib-standing-name">GEIEG</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>384</td>
+                  <td>324</td>
+                  <td>60</td>
+                  <td>56</td>
+                  <td>49</td>
+                  <td>5</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>42</strong><span>pts</span></td>
+                </tr>
+                <tr class="rib-standing-row--club">
+                  <td class="rib-standing-rank">3</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--inef" src="escuts_equips/inef_bcn.png" alt="Escut CR INEF BCN" />
+                  </td>
+                  <td class="rib-standing-name">CR INEF BCN</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>372</td>
+                  <td>302</td>
+                  <td>70</td>
+                  <td>52</td>
+                  <td>44</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>41</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">4</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--andorra" src="escuts_equips/vpc_andorra_b.png" alt="Escut VPC ANDORRA B" />
+                  </td>
+                  <td class="rib-standing-name">VPC ANDORRA B</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>373</td>
+                  <td>336</td>
+                  <td>37</td>
+                  <td>57</td>
+                  <td>50</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td class="rib-standing-points"><strong>40</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">5</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--cornella" src="escuts_equips/rc_cornella.png" alt="Escut RC CORNELLÀ" />
+                  </td>
+                  <td class="rib-standing-name">RC CORNELLÀ</td>
+                  <td>14</td>
+                  <td>8</td>
+                  <td>0</td>
+                  <td>6</td>
+                  <td>387</td>
+                  <td>343</td>
+                  <td>44</td>
+                  <td>54</td>
+                  <td>54</td>
+                  <td>5</td>
+                  <td>2</td>
+                  <td class="rib-standing-points"><strong>39</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">6</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--badalona" src="escuts_equips/rc_badalona.png" alt="Escut RC BADALONA" />
+                  </td>
+                  <td class="rib-standing-name">RC BADALONA</td>
+                  <td>14</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>9</td>
+                  <td>340</td>
+                  <td>378</td>
+                  <td>-38</td>
+                  <td>54</td>
+                  <td>56</td>
+                  <td>1</td>
+                  <td>5</td>
+                  <td class="rib-standing-points"><strong>26</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">7</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--senglars" src="escuts_equips/rc_senglars.png" alt="Escut RC SENGLARS" />
+                  </td>
+                  <td class="rib-standing-name">RC SENGLARS</td>
+                  <td>15</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>10</td>
+                  <td>265</td>
+                  <td>467</td>
+                  <td>-202</td>
+                  <td>44</td>
+                  <td>70</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>21</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">8</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--spartans" src="escuts_equips/cr_spartans.png" alt="Escut CR SPARTANS" />
+                  </td>
+                  <td class="rib-standing-name">CR SPARTANS</td>
+                  <td>14</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>11</td>
+                  <td>312</td>
+                  <td>489</td>
+                  <td>-177</td>
+                  <td>42</td>
+                  <td>76</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td class="rib-standing-points"><strong>16</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">9</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--rinyoles" src="escuts_equips/rinyoles_rc.png" alt="Escut RINYOLES RC" />
+                  </td>
+                  <td class="rib-standing-name">RINYOLES RC</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>14</td>
+                  <td>20</td>
+                  <td>-6</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>1</strong><span>pts</span></td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="rib-standings-legend">
+              <div class="rib-standings-legend__line">
+                <span><strong>J</strong> <em>·</em> Jugats</span>
+                <span><strong>G</strong> <em>·</em> Guanyats</span>
+                <span><strong>E</strong> <em>·</em> Empats</span>
+                <span><strong>P</strong> <em>·</em> Perduts</span>
+                <span><strong>PF</strong> <em>·</em> Punts a favor</span>
+                <span><strong>PC</strong> <em>·</em> Punts en contra</span>
+                <span><strong>DP</strong> <em>·</em> Diferència</span>
+                <span><strong>AF/AC</strong> <em>·</em> Assajos a favor/en contra</span>
+                <span><strong>BO</strong> <em>·</em> Bonus ofensiu</span>
+                <span><strong>BD</strong> <em>·</em> Bonus defensiu</span>
+              </div>
+            </div>
+          </section>
+          <p class="rib-empty-state" hidden>Encara no hi ha partits programats. Torna aviat per consultar el calendari.</p>
+        </div>
+      </div>
+    </section>
+    <!-- CLASSIFICACIONS -->
+    <section class="rib-section rib-classifications" id="classificacions" aria-labelledby="rib-classifications-title">
+      <div class="rib-container">
+        <div class="rib-section-head">
+          <p class="rib-eyebrow">Classificacions</p>
+          <h2 id="rib-classifications-title">Classificació de la temporada</h2>
+          <p class="rib-classifications-copy">Selecciona l’equip que vols consultar i revisa la seva posició dins la competició de temporada.</p>
+          
+        </div>
+
+        <div class="rib-classification-tabs" role="tablist" aria-label="Filtrar classificació per equip">
+          <button class="rib-classification-tabs__button is-active" type="button" role="tab" aria-selected="true" aria-controls="classificacio-femeni" data-classification-tab="femeni">Equip femení</button>
+          <button class="rib-classification-tabs__button" type="button" role="tab" aria-selected="false" aria-controls="classificacio-masculi" data-classification-tab="masculi">Equip masculí</button>
+        </div>
+
+        <div class="rib-classification-panel is-active" id="classificacio-femeni" role="tabpanel" data-classification-panel="femeni">
+          <section class="rib-standings" aria-labelledby="rib-standings-femenina">
+            <div class="rib-standings__head">
+              <div>
+                <p class="rib-eyebrow">Classificació</p>
+                <h3 id="rib-standings-femenina">Classificació femenina</h3>
+              </div>
+              <span class="rib-standings__note">Taula detallada</span>
+            </div>
+
+            <div class="rib-standings__table-wrap">
+              <table class="rib-standings-table rib-standings-table--detailed">
+                <thead>
+                  <tr>
+                    <th scope="col">Núm.</th>
+                    <th scope="col">Escut</th>
+                    <th scope="col">Equip</th>
+                    <th scope="col">J</th>
+                    <th scope="col">G</th>
+                    <th scope="col">E</th>
+                    <th scope="col">P</th>
+                    <th scope="col">PF</th>
+                    <th scope="col">PC</th>
+                    <th scope="col">DP</th>
+                    <th scope="col">AF</th>
+                    <th scope="col">AC</th>
+                    <th scope="col">BO</th>
+                    <th scope="col">BD</th>
+                    <th scope="col">Punts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td class="rib-standing-rank">1</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--tarragona" src="escuts_equips/cr_tarragona_sel_vng.png" alt="Escut CR TARRAGONA/SEL VNG" />
+                  </td>
+                  <td class="rib-standing-name">CR TARRAGONA/SEL VNG</td>
+                  <td>12</td>
+                  <td>10</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>368</td>
+                  <td>92</td>
+                  <td>276</td>
+                  <td>62</td>
+                  <td>16</td>
+                  <td>6</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>49</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">2</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--sant-cugat" src="escuts_equips/cr_sant_cugat_b.png" alt="Escut CR SANT CUGAT B" />
+                  </td>
+                  <td class="rib-standing-name">CR SANT CUGAT B</td>
+                  <td>12</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>388</td>
+                  <td>225</td>
+                  <td>163</td>
+                  <td>62</td>
+                  <td>39</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td class="rib-standing-points"><strong>42</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">3</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--valkinyoles" src="escuts_equips/valkinyoles.png" alt="Escut VALKÍNYOLES" />
+                  </td>
+                  <td class="rib-standing-name">VALKÍNYOLES</td>
+                  <td>12</td>
+                  <td>8</td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>298</td>
+                  <td>164</td>
+                  <td>134</td>
+                  <td>52</td>
+                  <td>28</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>36</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">4</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--gotics" src="escuts_equips/gotics_rc.png" alt="Escut GÒTICS RC" />
+                  </td>
+                  <td class="rib-standing-name">GÒTICS RC</td>
+                  <td>12</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>7</td>
+                  <td>188</td>
+                  <td>221</td>
+                  <td>-33</td>
+                  <td>36</td>
+                  <td>37</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td class="rib-standing-points"><strong>22</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">5</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--quimic" src="escuts_equips/quimic_er_ues_b.png" alt="Escut QUÍMIC ER/UES B" />
+                  </td>
+                  <td class="rib-standing-name">QUÍMIC ER/UES B</td>
+                  <td>12</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>7</td>
+                  <td>172</td>
+                  <td>362</td>
+                  <td>-190</td>
+                  <td>30</td>
+                  <td>62</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>21</strong><span>pts</span></td>
+                </tr>
+                <tr class="rib-standing-row--club">
+                  <td class="rib-standing-rank">6</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--inef" src="escuts_equips/inef_bcn.png" alt="Escut COQUES/INEF BCN" />
+                  </td>
+                  <td class="rib-standing-name">COQUES/INEF BCN</td>
+                  <td>12</td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>8</td>
+                  <td>206</td>
+                  <td>319</td>
+                  <td>-113</td>
+                  <td>34</td>
+                  <td>55</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>19</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">7</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--buc" src="escuts_equips/buc_b_senglars.png" alt="Escut BUC B/SENGLARS" />
+                  </td>
+                  <td class="rib-standing-name">BUC B/SENGLARS</td>
+                  <td>12</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>11</td>
+                  <td>134</td>
+                  <td>371</td>
+                  <td>-237</td>
+                  <td>22</td>
+                  <td>61</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td class="rib-standing-points"><strong>9</strong><span>pts</span></td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="rib-standings-legend">
+              <div class="rib-standings-legend__line">
+                <span><strong>J</strong> <em>·</em> Jugats</span>
+                <span><strong>G</strong> <em>·</em> Guanyats</span>
+                <span><strong>E</strong> <em>·</em> Empats</span>
+                <span><strong>P</strong> <em>·</em> Perduts</span>
+                <span><strong>PF</strong> <em>·</em> Punts a favor</span>
+                <span><strong>PC</strong> <em>·</em> Punts en contra</span>
+                <span><strong>DP</strong> <em>·</em> Diferència</span>
+                <span><strong>AF/AC</strong> <em>·</em> Assajos a favor/en contra</span>
+                <span><strong>BO</strong> <em>·</em> Bonus ofensiu</span>
+                <span><strong>BD</strong> <em>·</em> Bonus defensiu</span>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="rib-classification-panel" id="classificacio-masculi" role="tabpanel" data-classification-panel="masculi" hidden>
+          <section class="rib-standings" aria-labelledby="rib-standings-masculina">
+            <div class="rib-standings__head">
+              <div>
+                <p class="rib-eyebrow">Classificació</p>
+                <h3 id="rib-standings-masculina">Classificació masculina</h3>
+              </div>
+              <span class="rib-standings__note">Taula detallada</span>
+            </div>
+
+            <div class="rib-standings__table-wrap">
+              <table class="rib-standings-table rib-standings-table--detailed">
+                <thead>
+                  <tr>
+                    <th scope="col">Núm.</th>
+                    <th scope="col">Escut</th>
+                    <th scope="col">Equip</th>
+                    <th scope="col">J</th>
+                    <th scope="col">G</th>
+                    <th scope="col">E</th>
+                    <th scope="col">P</th>
+                    <th scope="col">PF</th>
+                    <th scope="col">PC</th>
+                    <th scope="col">DP</th>
+                    <th scope="col">AF</th>
+                    <th scope="col">AC</th>
+                    <th scope="col">BO</th>
+                    <th scope="col">BD</th>
+                    <th scope="col">Punts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td class="rib-standing-rank">1</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--sant-cugat-xv" src="escuts_equips/cr_sant_cugat_xv.png" alt="Escut CR SANT CUGAT XV" />
+                  </td>
+                  <td class="rib-standing-name">CR SANT CUGAT XV</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>460</td>
+                  <td>248</td>
+                  <td>212</td>
+                  <td>76</td>
+                  <td>36</td>
+                  <td>8</td>
+                  <td>5</td>
+                  <td class="rib-standing-points"><strong>49</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">2</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--geieg" src="escuts_equips/geieg.png" alt="Escut GEIEG" />
+                  </td>
+                  <td class="rib-standing-name">GEIEG</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>384</td>
+                  <td>324</td>
+                  <td>60</td>
+                  <td>56</td>
+                  <td>49</td>
+                  <td>5</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>42</strong><span>pts</span></td>
+                </tr>
+                <tr class="rib-standing-row--club">
+                  <td class="rib-standing-rank">3</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--inef" src="escuts_equips/inef_bcn.png" alt="Escut CR INEF BCN" />
+                  </td>
+                  <td class="rib-standing-name">CR INEF BCN</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>372</td>
+                  <td>302</td>
+                  <td>70</td>
+                  <td>52</td>
+                  <td>44</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>41</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">4</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--andorra" src="escuts_equips/vpc_andorra_b.png" alt="Escut VPC ANDORRA B" />
+                  </td>
+                  <td class="rib-standing-name">VPC ANDORRA B</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>373</td>
+                  <td>336</td>
+                  <td>37</td>
+                  <td>57</td>
+                  <td>50</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td class="rib-standing-points"><strong>40</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">5</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--cornella" src="escuts_equips/rc_cornella.png" alt="Escut RC CORNELLÀ" />
+                  </td>
+                  <td class="rib-standing-name">RC CORNELLÀ</td>
+                  <td>14</td>
+                  <td>8</td>
+                  <td>0</td>
+                  <td>6</td>
+                  <td>387</td>
+                  <td>343</td>
+                  <td>44</td>
+                  <td>54</td>
+                  <td>54</td>
+                  <td>5</td>
+                  <td>2</td>
+                  <td class="rib-standing-points"><strong>39</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">6</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--badalona" src="escuts_equips/rc_badalona.png" alt="Escut RC BADALONA" />
+                  </td>
+                  <td class="rib-standing-name">RC BADALONA</td>
+                  <td>14</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>9</td>
+                  <td>340</td>
+                  <td>378</td>
+                  <td>-38</td>
+                  <td>54</td>
+                  <td>56</td>
+                  <td>1</td>
+                  <td>5</td>
+                  <td class="rib-standing-points"><strong>26</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">7</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--senglars" src="escuts_equips/rc_senglars.png" alt="Escut RC SENGLARS" />
+                  </td>
+                  <td class="rib-standing-name">RC SENGLARS</td>
+                  <td>15</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>10</td>
+                  <td>265</td>
+                  <td>467</td>
+                  <td>-202</td>
+                  <td>44</td>
+                  <td>70</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>21</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">8</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--spartans" src="escuts_equips/cr_spartans.png" alt="Escut CR SPARTANS" />
+                  </td>
+                  <td class="rib-standing-name">CR SPARTANS</td>
+                  <td>14</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>11</td>
+                  <td>312</td>
+                  <td>489</td>
+                  <td>-177</td>
+                  <td>42</td>
+                  <td>76</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td class="rib-standing-points"><strong>16</strong><span>pts</span></td>
+                </tr>
+                <tr>
+                  <td class="rib-standing-rank">9</td>
+                  <td class="rib-standing-crest">
+                    <img class="rib-crest rib-crest--rinyoles" src="escuts_equips/rinyoles_rc.png" alt="Escut RINYOLES RC" />
+                  </td>
+                  <td class="rib-standing-name">RINYOLES RC</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>14</td>
+                  <td>20</td>
+                  <td>-6</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td class="rib-standing-points"><strong>1</strong><span>pts</span></td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="rib-standings-legend">
+              <div class="rib-standings-legend__line">
+                <span><strong>J</strong> <em>·</em> Jugats</span>
+                <span><strong>G</strong> <em>·</em> Guanyats</span>
+                <span><strong>E</strong> <em>·</em> Empats</span>
+                <span><strong>P</strong> <em>·</em> Perduts</span>
+                <span><strong>PF</strong> <em>·</em> Punts a favor</span>
+                <span><strong>PC</strong> <em>·</em> Punts en contra</span>
+                <span><strong>DP</strong> <em>·</em> Diferència</span>
+                <span><strong>AF/AC</strong> <em>·</em> Assajos a favor/en contra</span>
+                <span><strong>BO</strong> <em>·</em> Bonus ofensiu</span>
+                <span><strong>BD</strong> <em>·</em> Bonus defensiu</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- JUGA AMB NOSALTRES -->
+    <section class="rib-section rib-join" id="juga" aria-labelledby="rib-join-title">
+      <div class="rib-container rib-join__grid">
+        <div>
+          <p class="rib-eyebrow rib-eyebrow--light">Vine a provar</p>
+          <h2 id="rib-join-title">Vols jugar a rugby a Barcelona?</h2>
+          <p>
+            No cal tenir experiència. Si tens ganes d’aprendre, formar part d’un equip i viure el rugby des de dins,
+            contacta amb el club i vine a provar un entrenament.
+          </p>
+          <div class="rib-join__actions">
+            <a class="rib-btn rib-btn--primary" href="juga-amb-nosaltres.html">Contactar amb el club</a>
+            <a class="rib-btn rib-btn--secondary" href="juga-amb-nosaltres.html">Més informació</a>
+          </div>
+        </div>
+        <img class="rib-gallery-photo--rug-1" src="imatges/Rug_1.png" alt="Jugadora del Rugby INEF Barcelona xutant a pals" />
+      </div>
+    </section>
+
+    <!-- NOTÍCIES / ACTUALITAT -->
+    <section class="rib-section rib-news" id="noticies" aria-labelledby="rib-news-title">
+      <div class="rib-container">
+        <div class="rib-section-head">
+          <p class="rib-eyebrow">Actualitat</p>
+          <h2 id="rib-news-title">Notícies del club</h2>
+          <p>Últimes novetats, cròniques, activitats i informació important del Rugby INEF Barcelona.</p>
+        </div>
+
+        <div class="rib-news-grid">
+          <article class="rib-news-card">
+            <img class="rib-gallery-photo--rug-4" src="imatges/Rug_11.jpg" alt="Melé del Rugby INEF Barcelona" />
+            <div>
+              <span>Partits</span>
+              <h3>Crònica de jornada</h3>
+              <p>Espai per destacar resultats, sensacions i imatges dels últims partits.</p>
+              <span class="rib-card-link rib-card-link--disabled">Pròximament</span>
+            </div>
+          </article>
+          <article class="rib-news-card">
+            <img class="rib-gallery-photo--grada" src="imatges/Grada_Verda.jpg" alt="Afició del Rugby INEF Barcelona animant a la grada" />
+            <div>
+              <span>Club</span>
+              <h3>La grada verda</h3>
+              <p>La força del club també es viu des de la grada, les famílies i la comunitat.</p>
+              <span class="rib-card-link rib-card-link--disabled">Pròximament</span>
+            </div>
+          </article>
+          <article class="rib-news-card">
+            <img class="rib-gallery-photo--rug-ant-2" src="imatges/Rug_Ant_2.jpg" alt="Fotografia històrica del Rugby INEF Barcelona" />
+            <div>
+              <span>Història</span>
+              <h3>Memòria del club</h3>
+              <p>Una secció pensada per donar valor a la trajectòria i identitat del Rugby INEF.</p>
+              <a class="rib-card-link" href="club.html">Llegir més</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!-- GALERIA -->
+    <section class="rib-section rib-gallery" aria-labelledby="rib-gallery-title">
+      <div class="rib-container">
+        <div class="rib-section-head rib-section-head--center">
+          <p class="rib-eyebrow">Vida de club</p>
+          <h2 id="rib-gallery-title">Rugby, equip i comunitat</h2>
+        </div>
+
+        <div class="rib-gallery-layout" aria-label="Galeria del Rugby INEF Barcelona">
+          <figure class="rib-gallery-layout__item rib-gallery-layout__item--left-main">
+            <img src="imatges/Rug_5.jpg" alt="Jugador xutant una pilota de rugby" />
+          </figure>
+
+          <figure class="rib-gallery-layout__item rib-gallery-layout__item--left-bottom">
+            <img src="imatges/Rug_12.JPG" alt="Jugadora del Rugby INEF Barcelona corrent amb la pilota" />
+          </figure>
+
+          <figure class="rib-gallery-layout__item rib-gallery-layout__item--top-wide">
+            <img src="imatges/Rug_2.png" alt="Membres del club somrient a la grada" />
+          </figure>
+
+          <figure class="rib-gallery-layout__item rib-gallery-layout__item--middle-one">
+            <img src="imatges/Rug_13.jpg" alt="Acció de joc del Rugby INEF Barcelona" />
+          </figure>
+
+          <figure class="rib-gallery-layout__item rib-gallery-layout__item--middle-two">
+            <img src="imatges/Rug_4.jpg" alt="Melé del Rugby INEF Barcelona" />
+          </figure>
+
+          <figure class="rib-gallery-layout__item rib-gallery-layout__item--right-main">
+            <img src="imatges/Rug_6.jpg" alt="Touche del Rugby INEF Barcelona" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PATROCINADORS -->
+    <section class="rib-section rib-sponsors" id="patrocinadors" aria-labelledby="rib-sponsors-title">
+      <div class="rib-container">
+        <div class="rib-section-head rib-section-head--center">
+          <p class="rib-eyebrow">Amb el suport de</p>
+          <h2 id="rib-sponsors-title">Patrocinadors i col·laboradors</h2>
+        </div>
+        <div class="rib-sponsors__grid">
+          <a class="rib-sponsor-logo" href="https://www.instagram.com/comarca_lhocal/?hl=es" target="_blank" rel="noopener noreferrer" aria-label="Comarca"><img src="patrocinadors_i_logos/Comarca-Photoroom.png" alt="Comarca" /></a>
+          <a class="rib-sponsor-logo" href="https://fisioeixample.setmore.com" target="_blank" rel="noopener noreferrer" aria-label="Fisioeixample"><img src="patrocinadors_i_logos/Logo_fisioeixample_web_Mesa de trabajo 1 copia 7.png" alt="Fisioeixample" /></a>
+          <a class="rib-sponsor-logo" href="https://belushis.com/barcelona-las-ramblas" target="_blank" rel="noopener noreferrer" aria-label="Belushi's"><img src="patrocinadors_i_logos/Logo Belushi's blanc.png" alt="Belushi's" /></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rib-footer" id="contacte">
+    <div class="rib-container rib-footer__grid">
+      <div>
+        <img src="patrocinadors_i_logos/INEF_original_sense fons.png" alt="Logo Rugby INEF Barcelona" />
+        <h2>Rugby INEF Barcelona</h2>
+        <p>El nostre color és el verd. El nostre esport, el rugby.</p>
+      </div>
+      <nav aria-label="Enllaços de la web">
+        <h3>Web</h3>
+        <a href="index.html#club">Club</a>
+          <a href="juga-amb-nosaltres.html">Juga amb nosaltres</a>
+      </nav>
+      <div>
+        <h3>Contacte</h3>
+        <p>Avinguda de l’Estadi, 12<br />08038 Barcelona</p>
+        <a href="mailto:rugbyinefbcn@gmail.com">rugbyinefbcn@gmail.com</a>
+        <a href="tel:+34646875034">+34 646 87 50 34</a>
+      </div>
+      <nav aria-label="Informació legal">
+        <h3>Legal</h3>
+        <span>Avís legal</span>
+        <span>Política de privacitat</span>
+        <span>Política de cookies</span>
+      </nav>
+    </div>
+    <div class="rib-footer__bottom">© Rugby INEF Barcelona. Tots els drets reservats.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juga amb nosaltres | Rugby - INEF Barcelona</title>
+  <meta name="description" content="Formulari ràpid per venir a provar un entrenament amb el Rugby INEF Barcelona, equip masculí o femení." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- SOCIAL FIX -->
+    <nav class="rib-social-fixed" aria-label="Xarxes socials del Rugby INEF Barcelona">
+      <a class="rib-social-fixed__link" href="https://www.instagram.com/rugbyinefbcn/" target="_blank" rel="noopener noreferrer" aria-label="Instagram del Rugby INEF Barcelona">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+          <circle cx="12" cy="12" r="3.6"></circle>
+          <circle cx="17" cy="7" r="1"></circle>
+        </svg>
+      </a>
+      <a class="rib-social-fixed__link" href="https://x.com/rugbyinefbcn?lang=es" target="_blank" rel="noopener noreferrer" aria-label="X del Rugby INEF Barcelona">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M5 5L19 19M19 5L5 19"></path>
+        </svg>
+      </a>
+      <a class="rib-social-fixed__link" href="https://www.facebook.com/RugbyINEF/" target="_blank" rel="noopener noreferrer" aria-label="Facebook del Rugby INEF Barcelona">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M14.5 8.2H16V5.5h-2.1c-2.5 0-3.9 1.5-3.9 4v1.7H8v2.9h2v5.4h3.1v-5.4h2.4l.4-2.9h-2.8V9.7c0-1 .4-1.5 1.4-1.5Z"></path>
+        </svg>
+      </a>
+    </nav>
+
+  <header class="rib-header" id="top">
+    <a class="rib-logo" href="index.html" aria-label="Rugby INEF Barcelona - Inici">
+      <img src="patrocinadors_i_logos/INEF_original_sense fons.png" alt="Logo Rugby INEF Barcelona" />
+      <span>Rugby INEF Barcelona</span>
+    </a>
+
+    <button class="rib-menu-toggle" type="button" aria-label="Obrir menú" aria-expanded="false" data-menu-toggle>
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="rib-nav" aria-label="Navegació principal" data-main-nav>
+      <a href="index.html#club">Club</a>
+      <a href="index.html#propers-partits">Calendari</a>
+      <a href="index.html#noticies">Actualitat</a>
+      <a href="index.html#patrocinadors">Patrocinadors</a>
+      <a href="botiga.html">Botiga</a>
+      <a class="rib-nav__cta" href="juga-amb-nosaltres.html">Juga amb nosaltres</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="rib-hero rib-join-hero" id="inici" aria-labelledby="rib-join-hero-title">
+      <div class="rib-hero__bg" aria-hidden="true"></div>
+      <div class="rib-container rib-hero__grid">
+        <div class="rib-hero__content">
+          <p class="rib-eyebrow rib-eyebrow--light">Vine a provar</p>
+          <h1 id="rib-join-hero-title">Juga amb el Rugby INEF Barcelona</h1>
+          <p>
+            Omple aquest formulari ràpid i ens posarem en contacte amb tu per explicar-te com venir a provar
+            un entrenament amb l’equip masculí o femení.
+          </p>
+          <div class="rib-hero__actions">
+            <a class="rib-btn rib-btn--primary" href="#formulari">Omplir formulari</a>
+            <a class="rib-btn rib-btn--ghost" href="index.html">Tornar a la web</a>
+          </div>
+        </div>
+
+        <aside class="rib-hero-card" aria-label="Informació per venir a provar">
+          <img src="imatges/Rug_12.JPG" alt="Jugadora del Rugby INEF Barcelona corrent amb la pilota" />
+          <div>
+            <span class="rib-badge">Entrena amb nosaltres</span>
+            <h2>Masculí o femení</h2>
+            <p>Tria l’equip, deixa’ns les teves dades i t’explicarem com començar.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="rib-section rib-join-form-section" id="formulari" aria-labelledby="rib-join-form-title">
+      <div class="rib-container rib-join-form-wrap">
+        <div class="rib-section-head rib-section-head--center">
+          <p class="rib-eyebrow">Formulari ràpid</p>
+          <h2 id="rib-join-form-title">Vull venir a entrenar</h2>
+          <p>
+            Digues-nos quatre dades bàsiques i t’ajudarem a trobar el millor grup per començar.
+          </p>
+        </div>
+
+        <form class="rib-join-form" id="ribJoinForm" novalidate>
+          <div class="rib-form-row rib-form-row--three">
+            <label>
+              <span>Nom</span>
+              <input type="text" name="Nom" placeholder="Nom" required />
+            </label>
+
+            <label>
+              <span>1r cognom</span>
+              <input type="text" name="Primer cognom" placeholder="1r cognom" required />
+            </label>
+
+            <label>
+              <span>2n cognom</span>
+              <input type="text" name="Segon cognom" placeholder="2n cognom" />
+            </label>
+          </div>
+
+          <div class="rib-form-row rib-form-row--two">
+            <label>
+              <span>Correu electrònic</span>
+              <input type="email" name="Email" placeholder="Adreça email" required />
+            </label>
+
+            <label>
+              <span>Telèfon</span>
+              <input type="tel" name="Telefon" placeholder="Telèfon de contacte" required />
+            </label>
+          </div>
+
+          <div class="rib-form-row rib-form-row--two">
+            <label>
+              <span>Equip amb què vols provar</span>
+              <select name="Equip" required>
+                <option value="">Selecciona una opció</option>
+                <option value="Senior masculi">Sènior masculí</option>
+                <option value="Senior femeni">Sènior femení</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Has jugat abans a rugby?</span>
+              <select name="Experiencia" required>
+                <option value="">Selecciona una opció</option>
+                <option value="No, començo de zero">No, començo de zero</option>
+                <option value="Si, una mica">Sí, una mica</option>
+                <option value="Si, ja he jugat en un club">Sí, ja he jugat en un club</option>
+              </select>
+            </label>
+          </div>
+
+          <label>
+            <span>Missatge</span>
+            <textarea name="Missatge" rows="6" placeholder="Explica’ns disponibilitat, edat, experiència o qualsevol dubte que tinguis."></textarea>
+          </label>
+<div class="rib-form-actions">
+            <button class="rib-btn rib-btn--primary" type="submit" id="ribJoinSubmit">Enviar formulari</button>
+              <p class="rib-form-status" id="ribFormStatus" aria-live="polite"></p>
+            <a class="rib-btn rib-btn--secondary" href="index.html">Tornar a la web</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rib-footer" id="contacte">
+    <div class="rib-container rib-footer__grid">
+      <div>
+        <h2>Rugby INEF Barcelona</h2>
+        <p>Club de rugby universitari i de ciutat. Equip, història i comunitat.</p>
+      </div>
+      <div>
+        <h3>Contacte</h3>
+        <p><a href="mailto:rugbyinefbcn@gmail.com">rugbyinefbcn@gmail.com</a></p>
+      </div>
+      <div>
+        <h3>Legal</h3>
+        <span>Avís legal</span>
+        <span>Política de privacitat</span>
+        <span>Política de cookies</span>
+      </div>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
